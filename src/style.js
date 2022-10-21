@@ -3,8 +3,7 @@ const styles = {
 
   heading2:
     'font-semibold sm:text-5xl text-4xl text-white sm:leading-[76.8px] leading-[66.8px] w-full',
-  paragraph:
-    'font-normal text-dimWhite sm:text-lg text-sm sm:leading-9 leading',
+  paragraph: 'font-normal text-dimWhite sm:text-lg text-sm sm:leading-9',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
