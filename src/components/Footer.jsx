@@ -12,7 +12,11 @@ const Footer = () => {
     >
       <div className={`w-full ${styles.flexStart} sm:flex-row flex-col mb-8`}>
         <div className="flex-1 flex flex-col justify-start mr-10">
-          <img src={logo} alt="HooBank" className="w-64 h-20 object-contain" />
+          <img
+            src={logo}
+            alt="OH2K Bank logo"
+            className="w-64 h-20 object-contain"
+          />
           <p className={`${styles.paragraph} mt-4 max-w-xs`}>
             A new way to make the payments easy, reliable and secure.
           </p>
@@ -46,7 +50,7 @@ const Footer = () => {
 
       <div className="w-full flex justify-between items-center sm:flex-row flex-col pt-6 border-t-2 border-t-slate-800">
         <p className="font-normal text-center text-lg leading-7 text-white">
-          Copyright Ⓒ {currentYear} HooBank. All Rights Reserved.
+          Copyright Ⓒ {currentYear} OH2K Bank. All Rights Reserved.
         </p>
 
         <div className="flex flex-row md:mt-0 mt-6">
